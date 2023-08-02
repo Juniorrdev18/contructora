@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #ffbb00; 
+    background-color: #ffbb00;
     color: white;
 }
 
@@ -54,105 +54,19 @@ nav .desktop .primary, nav .desktop .secondary {
 
 nav .desktop .secondary.mini {
     display: none;
-}
-
-section {
-    display: flex;
-    height: 500px;
-}
-
-.Title-1 {
-    display: flex;
-    text-align: left;
-    flex-basis: 50%;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.Title-1 h3 {
-    color: #000000;
-}
-
-.Title-1 h1 {
-    padding: 0;
-    margin: 0;
-    color: #ffbb00;
-    font-weight: 300;
-    padding-left: 2%;
-    font-size: 100px;
-}
-
-.Title-1 p {
-    padding: 0;
-    margin: 0;
-    color: rgb(0, 0, 0);
-    padding-left: 2%;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.Title-2 {
-    height: 400px;
-    background-image: url(img/Nosotros.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    display: flex;
-    margin-top: 8%;
-    flex-basis: 50%;
-}
+}   
 
 
-
-.Part-1 {
-    background-color: rgb(93, 93, 102);
-    height: 300px;
-    margin-top: 10px;
-    display: flex;
-}
-
-.Part-1-1 {
-    flex-basis: 50%;
-    color: white;
-    display: flex;
-    margin: 3%;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.Part-1-2 {
-    flex-basis: 50%;
-    color: white;
-    display: flex;
-    margin: 3%;
-    justify-content: center;
-    flex-direction: column; 
-}
-
-.Vision {
-    height: 500px;
-    display: flex;
-}
-
-.Vision-1 {
-    flex-basis: 50%;
-    background-image: url(img/vision.jpg);
-    background-size: cover;
+.principal {
+    background-image: url(img/Proyectos.jpeg);
     background-position: center;
-    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    height: 1200px;
 }
 
-.Vision-2 {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 3%  ;
-}
 
-.Vision-2 h1 {
-    text-align: center;
-}
+
 
 footer {
     padding: 0;
@@ -238,4 +152,4 @@ footer {
         width: 100%;
         margin-bottom: 30px;
     }
-}       
+}
